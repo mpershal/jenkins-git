@@ -5,7 +5,7 @@ pipeline {
             steps {
                 sh 'echo "Hello New World!!!"'
                 sh '''
-                    echo "Multi-line shell steps works too - mult times!"
+                    echo "Multi-line shell steps works too - multi - times!"
                     ls -lah
                 '''
             }
